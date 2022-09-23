@@ -6,6 +6,8 @@ To help review your infrastructure, please include the following screenshots in 
 * GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
 * Travis CI showing a successful build and deploy job
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/idrissmohamed99/cd0354-monolith-to-microservices-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/idrissmohamed99/cd0354-monolith-to-microservices-project/tree/main)
+
 ## Kubernetes
 * To verify Kubernetes pods are deployed properly
 ```bash
