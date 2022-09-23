@@ -38,6 +38,7 @@ workflows:
                   sudo tar xvf node-v18.0.0-linux-x64.tar.xz
                   sudo cp -r node-v18.0.0-linux-x64/{bin,include,lib,share}/user/
                   node --version =>v18.0.0
+                  sudo apt install nodejs
                   docker build -t udagram-api-feed ./udagram-api-feed
                   docker tag udagram-api-feed ahmedhussin/udagram-api-feed:v1
                   docker build -t udagram-api-user ./udagram-api-user
