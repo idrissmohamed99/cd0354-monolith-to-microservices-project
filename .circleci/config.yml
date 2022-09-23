@@ -20,8 +20,9 @@ workflows:
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
         docker:
-           image: circleci/node@4.7
-       
+          - image: circleci/node@4.7
+        steps:
+          - checkout
         build-docker:
           machine: true
           steps:
