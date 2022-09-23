@@ -57,3 +57,9 @@ workflows:
                   docker push ahmedhussin/udagram-api-user:v1
                   docker push ahmedhussin/udagram-frontend:v1
                   docker push ahmedhussin/reverseproxy:v1
+  workflows:
+      jobs:
+        - lint-app
+        - build-docker:
+            requires: [lint-app]
+
