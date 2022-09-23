@@ -26,7 +26,7 @@ jobs:
               docker tag udagram-api-user ahmedhussin/udagram-api-user:v1
               docker build -t udagram-frontend ./udagram-frontend
               docker tag udagram-frontend ahmedhussin/udagram-frontend:v1
-              docker build -t udagram-reverseproxy ./udagram-reverseproxy
+              docker build -t reverseproxy ./udagram-reverseproxy
               docker tag udagram-reverseproxy ahmedhussin/reverseproxy:v1
 
               echo "----------all images are build ------------- "
