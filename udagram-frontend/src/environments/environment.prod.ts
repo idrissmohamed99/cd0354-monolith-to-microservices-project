@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   appName: 'Udagram',
-  apiHost: 'http://aa42ac3f339c14142b141f3f494e17c1-1613785104.us-east-2.elb.amazonaws.com:8080/api/v0'
+  apiHost: 'http://a90cbd0ced3b84867b1bcaba4e2cbd2f-1641054073.us-east-2.elb.amazonaws.com:8080/api/v0'
 };
 /*
  * For easier debugging in development mode, you can import the following file
