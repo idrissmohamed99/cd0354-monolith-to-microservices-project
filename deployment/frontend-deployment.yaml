@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: /ahmedhussin/udagram-frontend:v2
+          image: ahmedhussin/udagram-frontend:v1
           ports:
             - containerPort: 80
           resources:

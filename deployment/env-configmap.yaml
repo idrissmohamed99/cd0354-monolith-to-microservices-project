@@ -11,4 +11,4 @@ data:
  AWS_REGION: us-east-1
  AWS_PROFILE: default
  JWT_SECRET: testing
- URL: http://aa42ac3f339c14142b141f3f494e17c1-1613785104.us-east-2.elb.amazonaws.com
+ URL: http://localhost:8080
