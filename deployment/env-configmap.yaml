@@ -5,7 +5,7 @@ metadata:
 data:
  POSTGRES_HOST: postgres.cws7bxidxilp.us-east-1.rds.amazonaws.com
  POSTGRES_DB: postgres
- AWS_BUCKET: arn:aws:s3:::udagram-443487455185-dev
+ AWS_BUCKET: udagram-443487455185-dev
  AWS_REGION: us-east-1
  AWS_PROFILE: default
  JWT_SECRET: testing
